@@ -1,0 +1,8 @@
+parameters:
+    package_param_overridable_on_app_level: 'default_value'
+
+services:
+    _defaults:
+        public: true
+
+    Symplify\FlexLoader\Tests\Flex\FlexLoader\Source\ExtraService: ~
